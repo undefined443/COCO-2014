@@ -1,0 +1,17 @@
+# Images
+train2014/
+val2014/
+test2014/
+
+# Annotations
+annotations/
+
+# Archive
+archive/
+
+# Karpathy JSON (large file)
+karpathy-splits/dataset_coco.json
+
+# Python cache
+__pycache__/
+*.pyc
