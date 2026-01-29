@@ -4,7 +4,7 @@ Microsoft Common Objects in Context (MS COCO) dataset for image captioning.
 
 **Official site**: https://cocodataset.org/
 
-## Download
+## Download & Extract
 
 ```bash
 # Images
@@ -17,6 +17,13 @@ wget http://images.cocodataset.org/annotations/annotations_trainval2014.zip
 
 # Karpathy splits
 wget http://cs.stanford.edu/people/karpathy/deepimagesent/caption_datasets.zip
+
+# Extract
+unzip caption_datasets.zip dataset_coco.json -d karpathy-split
+unzip '*2014.zip'
+
+# Cleaning
+rm *.zip
 ```
 
 ## Directory Structure
